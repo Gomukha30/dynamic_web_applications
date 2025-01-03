@@ -1,0 +1,117 @@
+/* .bg-container {
+    background-color: #86d2f2;
+    height: 100vh;
+}
+
+.traffic-heading {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.responding-bulb {
+    background-color: #4b5069;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    margin: 15px;
+    text-align: center;
+}
+
+.Traffic-Responding {
+    background-color: #1f1d41;
+    width: 90px;
+    height: 220px;
+    border-radius: 25px;
+}
+
+.button {
+    margin: 19px;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1f1d41;
+    font-family: "Roboto";
+    border-width: 0px;
+    height: 40px;
+    width: 70px;
+
+}
+
+.bg_cont {
+    background-color: #86d2f2;
+    width: 200px;
+} */
+
+
+
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #86d2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.traffic-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1f1d41;
+}
+
+/* Layout Containers */
+.controls-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.traffic-light {
+    background-color: #1f1d41;
+    width: 90px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+/* Buttons */
+.button {
+    width: 80px;
+    height: 40px;
+    background-color: #1f1d41;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+/* Traffic Light Bulbs */
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4b5069;
+    transition: background-color 0.3s;
+}

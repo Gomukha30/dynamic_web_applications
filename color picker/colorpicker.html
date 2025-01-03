@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="colorpicker.css">
+</head>
+
+<body>
+    <div id="colorPickerContainer">
+        <h1 class="text-center">Color Picker</h1>
+        <div class="mb-3 mt-3 text-center">
+            <button class="button-1" id="button1" onclick="CallButtonOne()">#e0e0e0</button>
+            <button class="button-2" id="button2" onclick="CallButtonTwo()">#6fcf97</button>
+            <button class="button-3" id="button3" onclick="CallButtonThree()">#56ccf2</button>
+            <button class="button-4" id="button4" onclick="CallButtonFour()">#bb6bd9</button>
+        </div>
+        <p class="back">Background Color : <span class="colorff" id="selectedColorHexCode">#fffff</span></p>
+        <p>Try clicking on one of the colors above to change the background color of this page!</p>
+    </div>
+    <script src="colorpicker.js"></script>
+</body>
+
+</html>

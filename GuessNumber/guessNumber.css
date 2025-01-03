@@ -1,0 +1,155 @@
+/* .bg-container {
+    background-color: #246db6;
+    height: 100vh;
+    
+}
+
+.guess-game-img {
+    width: 100%;
+}
+
+.game-description {
+    color: black;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.guess-bg-container {
+    background-color: #246db6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.guess-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.guess-number-image {
+    width: 50px;
+}
+
+.user-input {
+    text-align: center;
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 500;
+    width: 300px;
+    padding: 10px;
+}
+
+.game-result {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.check-guess {
+    width: 170px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+} */
+
+
+
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #246db6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Intro Section */
+.intro-section {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.guess-game-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.game-description {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+
+/* Game Section */
+.game-section {
+    background-color: #246db6;
+    padding: 30px;
+    color: white;
+}
+
+.guess-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.guess-number-image {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.user-input {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.game-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
